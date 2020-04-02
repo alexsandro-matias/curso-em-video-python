@@ -19,6 +19,10 @@ print('Nome em letras Minúsculas: {}'.format(nomeCompleto.lower()))
 
 
 print('Quantidade de letras do nome: {}'.format(len(nomeCompleto)-nomeCompleto.count(' ')))
-print('Quantidade de letras do primeiro nome: {}'.format(len(nomeCompleto[0])))
+print('Quantidade de letras do primeiro nome: {}'.format(nomeCompleto.find(" ")))
 
-
+# outra forma de fazer
+# primeiroNome = nomeCompleto.split()
+# primeiroNome = primeiroNome[0]
+#
+# print('Seu primeiro nome tem {} letras'.format(len(primeiroNome)))
