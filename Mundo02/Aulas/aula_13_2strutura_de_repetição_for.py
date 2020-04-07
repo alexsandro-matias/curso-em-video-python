@@ -35,10 +35,7 @@ print('A soma dos valores digitados vale: {}'.format(soma))
 #crie um programa que mostre na tela
 # todos os números pares que estão no intervalo entre 1 e 50
 
-# Desafio 48 -
-# Faça um programa que calcule a soma entre
-# os números ímpares que são múltiplos de 3
-# e que se encontram no intervalor de 1 até 50
+
 
 # Desafio 49 -
 # Refaça o desafio 009, mostrando a tabuada de um número que o usuário escolher,
@@ -48,16 +45,6 @@ print('A soma dos valores digitados vale: {}'.format(soma))
 # Desenvolva um programa que leia seis números inteiros
 # e mostre a soma apenas daqueles que forem pares.
 # Se o valor digitado for ímpar, desconsidere-o
-
-# Desafio 51
-# Desenvolva um programa que leia o primeiro termo e a razão de uma PA.
-# No final, mostre os 10 primeiros termos dessa progressão.
-
-# Desafio 52
-# Faça um programa que leia um número inteiro
-# e diga se ele é ou não um número primo.
-
-
 
 # Desafio 54
 # Crie um programa que leia o ano de nascimento de sete pessoas. No final,
@@ -69,7 +56,6 @@ print('A soma dos valores digitados vale: {}'.format(soma))
 # No final, mostre qual foi o maior e o menor peso lidos.
 #
 # Desafio 56
-
 # Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas.
 # No final mostre:
 #

@@ -8,26 +8,24 @@
 # O LOBO AMA O BOLO
 # ANOTARAM A DATA DA MARATONA
 
-texto_original = 'ana'
+texto_original = 'O LOBO AMA O BOL'
 texto = texto_original
 
 #tirando os espaços vazios
 texto = texto_original.replace(' ', '')
 
-
-for letra in texto[::]:
-    texto.ap
-
 invertido = []
 
+# Adicionando cada letra à String invertida
 for letra in texto[::-1]:
     invertido.append(letra)
 
+#juntando a lista e convertendo-a em String
+invertido = ''.join(invertido)
 
-print(invertido)
-print(texto)
-
-if id(texto) == id(invertido):
+# Se o lido ao contrário for igual ao igual o texto digitado,
+# Ele será um palíndromo
+if texto == invertido:
     print("{} é um palíndromo".format(texto_original))
 else:
     print("{} não é um palíndromo".format(texto_original))
