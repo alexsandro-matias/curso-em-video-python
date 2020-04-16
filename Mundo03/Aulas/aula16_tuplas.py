@@ -70,10 +70,6 @@ pessoa = ('João' , 39 , 'Masculino' , 83,55)
 # del(pessoa)
 # print(pessoa)
 
-# desafio 072
-# Crie um programa que tenha uma
-# tupla totalmente preenchida com uma contagem por extenso de zero até vinte.
-# Seu programa deverá ler um número pelo teclado (entre 0 e 20)
 # e mostrá-lo por extenso. [Sem usar IF's]
 
 # desafio 073
@@ -89,12 +85,7 @@ pessoa = ('João' , 39 , 'Masculino' , 83,55)
 # Depois disso, mostre a listagem de números gerados
 # e também indique o menor e o maior valor que estão na tupla.
 
-# desafio 075
-# deselvolva um programa que leia quatro valores pelo teclado e guarde-os
-# em uma tupla. No final, mostre:
-# a) Quantas vezes apareceu o valor 9;
-# b) Em que posição foi digitado o primeiro valor 3;
-# c) Quais foram os números pares.
+
 
 # desafio 076
 # Crie um programa que tenha uma tupla única com nomes de produtos
