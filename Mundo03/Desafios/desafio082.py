@@ -11,7 +11,7 @@ pares = []
 impares = []
 flag = 'S'
 
-
+# Leitura dos dados pelo teclado
 # numeros = []
 # while flag != ('n' or 'N'):
 #     numeros.append(int(input('Digite um número: ')))

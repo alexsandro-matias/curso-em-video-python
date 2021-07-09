@@ -11,7 +11,7 @@ flag = 's'
 numeros = []
 
 while flag != ('n' or 'N'):
-    temporario = int(input(('Digite um número: ')))
+    temporario = int(input('Digite um número: '))
 
     if temporario in numeros:
         print('Valor duplicado! Não é possível adicioná-lo.')
@@ -23,4 +23,4 @@ while flag != ('n' or 'N'):
     flag = (input('Quer continuar? [S/N]'))
 
 
-print("Os valores digitados sem repetição foram {}".format(sorted(numeros)))
+print("Os valores ordendados sem repetição foram {}".format(sorted(numeros)))

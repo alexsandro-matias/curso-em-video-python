@@ -83,7 +83,7 @@ valores = [8,2,5,4,9,3,0]
 # for c, v in enumerate(valores):
 #     print('Na posição {} é o valor {}'.format(c,v))
 
-# Ligação entre listas:
+# Ligação entre listas: os valores da "a" neste caso fica com uma ligação com a lista "b"
 # a = valores
 # b = valores
 # print(a)

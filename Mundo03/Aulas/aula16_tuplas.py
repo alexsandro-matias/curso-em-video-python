@@ -1,6 +1,6 @@
 # Variáveis Compostas
 # Tuplas, Listas e Dicionários
-# () - Tuplas - Apartir do Python 3.5 o uso dos () é facultativo.
+# () - Tuplas - A partir do Python 3.5 o uso dos () é facultativo.
 # [] - Listas
 # {} - Dicionários
 
@@ -80,10 +80,7 @@ pessoa = ('João' , 39 , 'Masculino' , 83,55)
 # c) Uma lista com os times em ordem alfabética.
 # d) Em que posição na tabela está o time da Chapecoense.
 
-# desafio 074
-# Crie um programa que vai gerar cinco números aleatórios e colocar em uma tupla.
-# Depois disso, mostre a listagem de números gerados
-# e também indique o menor e o maior valor que estão na tupla.
+
 
 
 
