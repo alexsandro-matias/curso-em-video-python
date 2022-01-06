@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "ambiente_virtual/bin/python",
+    "code-runner.executorMap": {
+        "python": "curso_em_video/bin/python",
+        
+    }
+}
