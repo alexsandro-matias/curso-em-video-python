@@ -14,12 +14,12 @@ pessoas = list()
 # pessoas.append(dados[:])
 # print(pessoas)
 
-pessoas =  [["pedro" , 19] , ["maria" , 20] , ["joão" , 30]]
+pessoas = [["pedro", 19], ["maria", 20], ["joão", 30]]
 # print(pessoas)
 
 # Neste caso, ocorre uma lista dentro de outra lista.
 
-#acessando um elemento da lista:
+# acessando um elemento da lista:
 print(pessoas[1])
 # ['maria', 20]
 
@@ -29,7 +29,7 @@ print(pessoas[0][1])
 # pedro
 # 19
 
-# # A mesma tipo de saída acontece quando não há o fateamento dos itens da lista.
+# A mesma tipo de saída acontece quando não há o fateamento dos itens da lista.
 # teste = []
 # teste.append('gustavo')
 # teste.append(40)
@@ -55,12 +55,10 @@ teste.append('gustavo')
 teste.append(40)
 
 galera = []
-galera.append(teste[:]) # Neste ponto
+galera.append(teste[:])  # Neste ponto
 
 teste[0] = 'Joao'
 teste[1] = '20'
 
-galera.append(teste[:]) # E Neste ponto
+galera.append(teste[:])  # E Neste ponto
 print(galera)
-
-
