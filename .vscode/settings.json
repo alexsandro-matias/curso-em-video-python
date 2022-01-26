@@ -1,7 +1,27 @@
 {
     "python.pythonPath": "ambiente_virtual/bin/python",
-    "code-runner.executorMap": {
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+
+    "python.linting.mypyEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.testing.unittestEnabled": true,
+
+
+
+
+    "code-runner.executorMap": 
+    {
         "python": "curso_em_video/bin/python",
         
     }
+
+//     "[python]": {
+//         "editor.formatOnSave": true
+
+
+//     // "window.zoomLevel": 2,
+//     // "editor.fontSize": 20,
+    
+
 }
