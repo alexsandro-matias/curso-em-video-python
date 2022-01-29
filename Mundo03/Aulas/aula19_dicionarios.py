@@ -90,7 +90,7 @@ brasil = list()
 # Para evitar esse "erro",
 # existe um método nativo do python para fazer a cópia do dicionário .copy
 
-for c in range(0,2):
+for c in range(0, 2):
     estado['uf'] = input('Unidade Federativa: ')
     estado['sigla'] = input('Sigla do estado: ')
     brasil.append(estado.copy())
