@@ -20,7 +20,7 @@
 # Saída - Help on function contador in module __main__:
 # ou seja, não tem nenhuma função da função devido a não ser explicitado.
 # contador(i, f, p)
-    # docstring - string de documentação (manual)
+# docstring - string de documentação (manual)
 
 # para isso, o texto deve estar entre """ no início da função.
 
@@ -76,7 +76,6 @@
 # somar(2, b = 1, a = 7)
 
 
-
 # Escopo de declaração de variáveis
 # Local onde uma variável vai existir ou deixar de existir.
 
@@ -96,68 +95,18 @@
 # print(f'A fora vale {a}')
 
 
-
-
 # Retorno de valores
 # A palavra reservada return
 # indica que existe um retorno de algum valor (resultado) de uma função.
 # Utilizando a mesma função soma, só que adicionando um retorno:
 
-def somar(a,b,c =0):
+def somar(a, b, c = 0):
     soma = a + b + c
     return soma
 
-adicao = somar(3,2,5)
+adicao = somar(3, 2, 5)
 print(f'A soma vale {adicao}')
 
 
 # Outra forma seria já colocar o retorno da função diretamente dentro do print()
 print(somar(1,2,3))
-
-
-# Desafio 101:
-# Crie um programa que tenha uma função chamada voto() que vai receber como parâmetro o ano de nascimento de uma pessoa,
-# retornando um valor literal indicando se uma pessoa tem voto NEGADO, OPCIONAL e OBRIGATÓRIO nas eleições.
-
-
-
-
-
-
-
-# Desafio 102
-# Crie um programa que tenha uma função fatorial() que receba dois parâmetros:
-# o primeiro que indique o número a calcular e outro chamado show,
-# que será um valor lógico (opcional) indicando se será mostrado ou não na tela o processo de cálculo do fatorial.
-
-
-
-
-
-#
-#
-#
-# Desafio 103: Faça um programa que tenha uma função chamada ficha(), que receba dois parâmetros opcionais: o nome de um jogador e quantos gols ele marcou. O programa deverá ser capaz de mostrar a ficha do jogador, mesmo que algum dado não tenha sido informado corretamente.
-#
-#
-#
-#
-#
-# Desafio 104: Crie um programa que tenha a função leiaInt(), que vai funcionar de forma semelhante ‘a função input() do Python, só que fazendo a validação para aceitar apenas um valor numérico. Ex: n = leiaInt(‘Digite um n: ‘)
-#
-#
-#
-#
-# Desafio 105: Faça um programa que tenha uma função notas() que pode receber várias notas de alunos e vai retornar um dicionário com as seguintes informações:
-#
-# – Quantidade de notas
-# – A maior nota                                                                                                                                                            
-# – A menor nota                                                                                                                                                              
-# – A média da turma
-# – A situação (opcional)
-#
-#
-#
-#
-#
-# Desafio 106: Faça um mini-sistema que utilize o Interactive Help do Python. O usuário vai digitar o comando e o manual vai aparecer. Quando o usuário digitar a palavra ‘FIM’, o programa se encerrará. Importante: use cores.
