@@ -6,13 +6,15 @@
 
 # Adicionado no final da lista
 # Adicionado na posição {}
-
-
 numeros = []
+numeros[0] = int(input('Digite um valor: '))
 
-for i in range(5):
-    temporario = (int(input('Digite um número:')))
-    menor = temporario
+
+
+
+for i in range(4):
+    temporario = (int(input('Digite outro número: ')))
+    menor = numeros.append(temporario)
 
     if temporario <= menor(numeros):
         numeros.insert(i, temporario)
