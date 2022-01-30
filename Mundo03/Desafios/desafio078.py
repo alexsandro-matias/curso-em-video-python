@@ -9,25 +9,20 @@
 #     numeros.append(int(input(('Digite um número:'))))
 
 # pré-determinada lista apenas para testes.
-# numeros = [7,1,1,8,4,10,4,7,10,6]
+numeros = [7, 1, 1, 8, 4, 10, 4, 7, 10, 6]
 
-# maior = max(numeros)
-# menor = min(numeros)
-#
-# posicao_maior = numeros.index(maior)
-# posicao_menor = numeros.index(menor)
-#
-# print("Lista: {}".format(numeros))
-# print("Maior: {} e está na posição {}".format(maior,posicao_maior))
-# print("Menor: {} e está na posição {}".format(menor,posicao_menor))
-
-
-
-
-# pré-determinada lista apenas para testes.
-numeros = [7,1,1,8,4,10,4,7,10,6]
 maior = max(numeros)
 menor = min(numeros)
 
-for c, v in enumerate(numeros):
-    print('Na posição {} é o valor {}'.format(c,v))
+posicao_maior = numeros.index(maior)
+posicao_menor = numeros.index(menor)
+
+print("Lista: {}".format(numeros))
+print("Maior: {} e está na posição {}".format(maior, posicao_maior))
+print("Menor: {} e está na posição {}".format(menor, posicao_menor))
+
+
+# # pré-determinada lista apenas para testes.
+# numeros = [7, 1, 1, 8, 4, 10, 4, 7, 10, 6]
+# maior = max(numeros)
+# menor = min(numeros)

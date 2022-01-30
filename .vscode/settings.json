@@ -2,26 +2,21 @@
     "python.pythonPath": "ambiente_virtual/bin/python",
     "code-runner.ignoreSelection": true,
     "code-runner.runInTerminal": true,
-
+    //    
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    // 
     "python.linting.mypyEnabled": true,
     "python.linting.flake8Enabled": true,
     "python.testing.unittestEnabled": true,
-
-
-
-
-    "code-runner.executorMap": 
-    {
+    "code-runner.executorMap": {
         "python": "curso_em_video/bin/python",
-        
     }
-
-//     "[python]": {
-//         "editor.formatOnSave": true
-
-
-//     // "window.zoomLevel": 2,
-//     // "editor.fontSize": 20,
-    
-
+    // "[python]": {
+    //     "editor.formatOnSave": true,
+    //     "editor.defaultFormatter": "autopep8",
+    // }
+    //     // "window.zoomLevel": 2,
+    //     // "editor.fontSize": 20,
 }

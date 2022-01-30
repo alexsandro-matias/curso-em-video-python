@@ -8,4 +8,3 @@ for numero in range(1, 6):
         numeros[0].append(intermediario)
     else:
         numeros[1].append(intermediario)
-

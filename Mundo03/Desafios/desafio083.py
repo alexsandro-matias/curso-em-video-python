@@ -3,7 +3,7 @@
 # os parênteses. Seu aplicativo deverá analisar se a expressão passada está
 # com os parênteses abertos e fechados na ordem correta.
 
-expressao= list((input('Digite uma expressão algébrica: ')))
+expressao = list((input('Digite uma expressão algébrica: ')))
 abertura = expressao.count('(')
 fechamento = expressao.count(')')
 print(expressao)

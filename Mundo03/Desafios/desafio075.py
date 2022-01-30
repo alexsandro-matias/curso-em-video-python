@@ -6,7 +6,7 @@
 # c) Quais foram os números pares.
 
 # Para testes
-numeros = [10, 9 , 3 , 2]
+numeros = [10, 9, 3, 2]
 pares = []
 
 # numeros = []

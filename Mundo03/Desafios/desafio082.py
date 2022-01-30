@@ -5,17 +5,17 @@
 # Ao final, mostre o conteúdo das três listas geradas
 
 
-# Lista de testes
-numeros = [10, 5, 11, 12, 8, 9]
+# # Lista de testes
+# numeros = [10, 5, 11, 12, 8, 9]
 pares = []
 impares = []
 flag = 'S'
 
 # Leitura dos dados pelo teclado
-# numeros = []
-# while flag != ('n' or 'N'):
-#     numeros.append(int(input('Digite um número: ')))
-#     flag = input("Deseja continuar: [S/N]")
+numeros = []
+while flag != ('n' or 'N'):
+    numeros.append(int(input('Digite um número: ')))
+    flag = input("Deseja continuar: [S/N]")
 
 for i in numeros:
     if i % 2 == 0:

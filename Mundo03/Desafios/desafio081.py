@@ -19,7 +19,7 @@ numeros = [11, 10, 9, 5, 0]
 #     flag = input('Deseja continuar: [S/N]')
 
 print("Quantidade de números digitados: {} ".format(len(numeros)))
-print("Lista em ordem decrescente: {}".format(sorted(numeros,reverse=True)))
+print("Lista em ordem decrescente: {}".format(sorted(numeros, reverse=True)))
 
 if 5 in numeros:
     print("O número 5 está na lista.")

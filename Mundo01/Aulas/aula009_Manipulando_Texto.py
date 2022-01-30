@@ -5,6 +5,8 @@ frase = "Curso em Vídeo Python"
 # print(type(frase))
 # <class 'str'>
 
+
+
 # # # Fateamento
 # # posição 9
 # print(frase[9])

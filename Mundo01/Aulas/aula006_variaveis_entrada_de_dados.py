@@ -6,5 +6,5 @@
 # print('A soma entre {} e {} vale {}'.format(n1, n2, soma))
 
 
-n1 = bool(input('Digite um valor: '))
+n1 = float(input('Digite um valor: '))
 print(n1)
