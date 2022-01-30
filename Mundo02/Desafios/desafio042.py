@@ -10,8 +10,8 @@ terceiro = float(input('Digite o terceiro lado: '))
 if (primeiro == segundo) and (segundo == terceiro):
     print('O triângulo é equilátero.')
 
-if primeiro != segundo and segundo != terceiro and primeiro != terceiro:
+elif primeiro != segundo and segundo != terceiro and primeiro != terceiro:
     print('O triângulo é escaleno.')
 
-if (primeiro == segundo and segundo != terceiro) or (primeiro != segundo and primeiro == terceiro) or (primeiro != segundo and segundo == terceiro):
+else:
     print('O triângulo é isóceles.')

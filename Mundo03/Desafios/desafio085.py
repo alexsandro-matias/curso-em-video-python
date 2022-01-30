@@ -8,3 +8,6 @@ for numero in range(1, 6):
         numeros[0].append(intermediario)
     else:
         numeros[1].append(intermediario)
+
+print(f'Lista dos números pares: {numeros[0]}')
+print(f'Lista dos números ímpares: {numeros[1]}')

@@ -6,9 +6,8 @@
 
 # Adicionado no final da lista
 # Adicionado na posição {}
-numeros = []
-numeros[0] = int(input('Digite um valor: '))
 
+numeros = []
 
 for i in range(4):
     temporario = (int(input('Digite outro número: ')))
