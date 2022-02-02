@@ -6,7 +6,7 @@
 
 # Strings são variáveis compostas
 
-lanche = ('Hamburguer', 'suco' , 'pizza' , 'pudim')
+lanche = ('Hamburguer', 'suco', 'pizza', 'pudim')
 # Da mesma forma, o fateamento pode ser aplicado nas tuplas.
 # print(lanche[0])
 # print(lanche[1:])
@@ -42,8 +42,8 @@ lanche = ('Hamburguer', 'suco' , 'pizza' , 'pudim')
 # Como a tupla é imutável, apenas ela é exibida de forma ordenada.
 # Para isso, é necessário converter para listas para ser feita essa ordenação.
 
-a = (2,5,4)
-b = (5,8,1,2)
+a = (2, 5, 4)
+b = (5, 8, 1, 2)
 c = a + b
 print(c)
 # Concatenação de tuplas, o que não representa a mesma coisa em ordem diferente.
@@ -63,7 +63,7 @@ print(c)
 
 # Diferentemente de outras linguagens de programação,
 # nas tuplas podem ser colocadas vários tipos de dados:
-pessoa = ('João' , 39 , 'Masculino' , 83,55)
+pessoa = ('João', 39, 'Masculino', 83, 55)
 
 # Para apagar da memória determinada tupla,
 # usamos o método del
@@ -81,9 +81,6 @@ pessoa = ('João' , 39 , 'Masculino' , 83,55)
 # d) Em que posição na tabela está o time da Chapecoense.
 
 
-
-
-
 # desafio 076
 # Crie um programa que tenha uma tupla única com nomes de produtos
 # e seus respectivos preços, na sequência
@@ -97,4 +94,3 @@ pessoa = ('João' , 39 , 'Masculino' , 83,55)
 # Crie um programa que tenha uma tupla com várias palavras
 # (não usar acentos). Depois disso, você deve mostrar, para cada palavra,
 # quais são as suas vogais.
-

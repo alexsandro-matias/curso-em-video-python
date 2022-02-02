@@ -31,9 +31,7 @@ if terceiro == maior:
     if terceiro < (primeiro + segundo):
         ExisteTriangulo = True
 
-if ExisteTriangulo == True:
+if ExisteTriangulo:
     print("É possível formar um triângulo")
 else:
     print("Não é possível formar um triângulo")
-
-

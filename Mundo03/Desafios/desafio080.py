@@ -7,15 +7,35 @@
 # Adicionado no final da lista
 # Adicionado na posição {}
 
-numeros = []
 
-for i in range(4):
-    temporario = (int(input('Digite outro número: ')))
-    menor = numeros.append(temporario)
+numeros = [10, 19, 3, 5, 7, 8, 15, 4, 6]
 
-    if temporario <= menor(numeros):
-        numeros.insert(i, temporario)
-    print('Número {} adicionado na posição {}'.format(numeros[i], i))
+# numeros = []
+
+novo = numeros[1:-1]
+
+print(novo)
 
 
-print((numeros))
+# for i in range(8):
+
+#     temporario = (int(input('Digite outro número: ')))
+
+#     # No primeiro caso, em que a lista está vazia.
+#     if len(numeros) == 0:
+#         numeros.append(temporario)
+
+#     else:
+#         print(numeros)
+#         if temporario < min(numeros):
+#             numeros.insert(0, temporario)
+
+#         elif temporario > max(numeros):
+#             numeros.append(temporario)
+
+#         else:
+#             numeros.insert(i-1, temporario)
+#     print(numeros)
+
+
+# print(numeros)

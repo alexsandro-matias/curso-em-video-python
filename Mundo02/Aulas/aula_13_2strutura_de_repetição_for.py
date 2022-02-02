@@ -13,7 +13,7 @@
 #
 # for i in range(0,7,2):
 #     print(i)
-
+#
 
 # inicio = int(input('Ínicio: '))
 # final = int(input('Final: '))
@@ -22,8 +22,7 @@
 #     print(i)
 
 soma = 0
-for i in range(0,4):
+for i in range(0, 4):
     n = int(input('Digite um valor: '))
     soma += n
 print('A soma dos valores digitados vale: {}'.format(soma))
-
