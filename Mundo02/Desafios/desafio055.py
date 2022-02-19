@@ -9,11 +9,11 @@ peso = float(input('Digite o peso da 1ª pessoa em Kg: '))
 maior = peso
 menor = peso
 
-for i in range(2,6):
+for i in range(2, 6):
     peso = float(input('Digite o peso da {}ª pessoa em Kg: '.format(i)))
-    if(peso > maior):
+    if peso > maior:
         maior = peso
-    if(peso < menor):
+    if peso < menor:
         menor = peso
 
 print("Maior peso digitado: {} Kg.".format(maior))

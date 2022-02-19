@@ -11,7 +11,7 @@
 texto_original = 'O LOBO AMA O BOLO'
 texto = texto_original
 
-#tirando os espaços vazios
+# tirando os espaços vazios
 texto = texto_original.replace(' ', '')
 
 invertido = []
@@ -22,7 +22,7 @@ for letra in texto[::-1]:
 # Nesta etapa, não está sendo definido nem o início, nem o final,
 # somente que será contada do final até o início do texto.
 
-#juntando a lista e convertendo-a em String
+# juntando a lista e convertendo-a em String
 invertido = ''.join(invertido)
 
 # Se o lido ao contrário for igual ao igual o texto digitado,

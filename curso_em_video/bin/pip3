@@ -1,4 +1,4 @@
-#!/home/matias/github/curso-em-video-python/curso_em_video/bin/python3
+#!/home/matias/github/curso-em-video-python/curso_em_video/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

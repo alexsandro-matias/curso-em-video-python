@@ -4,10 +4,11 @@
 # Maioridade 21 anos
 
 from datetime import date
+
 maiores = 0
 menores = 0
 
-for i in range(1,8):
+for i in range(1, 8):
     ano_nascimento = int(input('Digite a idade da {}ª pessoa: '.format(i)))
     idade = date.today().year - ano_nascimento
     if idade >= 18:
