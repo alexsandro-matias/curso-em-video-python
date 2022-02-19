@@ -6,6 +6,8 @@
 #
 
 numero = int(input('Digite um número inteiro: '))
-binario = bin(numero)
-hexadecimal = hex(numero)
-print(hexadecimal)
+
+print("Número digitado em Binário: " , bin(numero))
+print("Número digitado em Hexadecimal: " , hex(numero))
+print("Número digitado em Octal:" ,  oct(numero))
+
