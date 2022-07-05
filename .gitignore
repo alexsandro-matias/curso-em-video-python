@@ -2,8 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/pycharm+all,visualstudiocode,eclipse,venv,virtualenv
 # Edit at https://www.toptal.com/developers/gitignore?templates=pycharm+all,visualstudiocode,eclipse,venv,virtualenv
 
-curso_em_video/*
-python_fundamentos_dsa/*
+curso_em_video/
+python_fundamentos_dsa/
 
 ### Eclipse ###
 .metadata
