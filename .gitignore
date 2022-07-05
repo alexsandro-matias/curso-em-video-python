@@ -1,9 +1,9 @@
 curso_em_video/**
 python_fundamentos_dsa/**
 .gitignore
-.idea/*
-!.idea/*
+.idea/**
+!.idea/**
 .project
 pyvenv.cfg
 .venv
-.vscode/*
+.vscode/**
