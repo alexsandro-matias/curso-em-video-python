@@ -11,10 +11,7 @@
 
 nomeCompleto = str(input('Digite o nome completo da pessoa: ')).split()
 print("Primeiro Nome: {}".format(nomeCompleto[0]))
-print("Último Nome: {}".format(nomeCompleto[len(nomeCompleto)-1]))
-
-
-
+print("Último Nome: {}".format(nomeCompleto[len(nomeCompleto) - 1]))
 
 #
 #

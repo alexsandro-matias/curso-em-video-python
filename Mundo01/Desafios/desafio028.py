@@ -5,7 +5,7 @@
 import random
 import time
 
-numeroComputador = random.randint(0,5)
+numeroComputador = random.randint(0, 5)
 numeroJogador = int(input('Digite o número inteiro entre 0 e 5: '))
 print('PROCESSANDO')
 time.sleep(3)
@@ -15,7 +15,3 @@ if numeroComputador == numeroJogador:
     print('Parabéns, você ganhou!!!')
 else:
     print('Foi triste! Você perdeu!')
-
-
-
-
