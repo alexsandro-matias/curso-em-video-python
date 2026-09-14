@@ -1,10 +1,10 @@
 # Declaração da classe
 class Gafanhoto:
-    # metodo construtor
-    def __init__(self):
+    # metodo construtor com parâmetros opcionais
+    def __init__(self, nome="", idade=0):
         # atributos de instância.
-        self.nome = ''
-        self.idade = 0
+        self.nome = nome
+        self.idade = idade
 
     # métodos de instância
     def aniversario(self):
@@ -15,7 +15,14 @@ class Gafanhoto:
 
 
 # Declaração do objeto
-g1 = Gafanhoto()
-g1.nome = 'teste'
-g1.idade = 20
+g1 = Gafanhoto("Mauro", 4)
 print(g1.mensagem())
+
+
+g2 = Gafanhoto("Maria", 11)
+g2.aniversario()
+print(g2.mensagem())
+print(g2.mensagem())
+
+g3 = Gafanhoto()
+print(g3.mensagem())
